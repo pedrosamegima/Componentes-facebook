@@ -23,13 +23,13 @@ export default function App() {
       
  
 
-      <Botao btn="entrar" cor='#1477F2' src='home' />
+      <Botao btn="entrar" cor='#1477F2' src='home' cortexto='#fff' tm='35%'/>
       <View style={styles.cont}>
         <View style={styles.line}/>
         <Text style={styles.text}>ou</Text>
         <View style={styles.line}/>
         </View>
-      <Botao btn="criar uma nova conta" cor='' src='criar uma nova conta' />
+      <Botao btn="criar uma nova conta"  src='criar uma nova conta' cortexto='#000' tm='10%'/>
     </View>
   );
 }
